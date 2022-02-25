@@ -1,0 +1,690 @@
+<resources>
+    <string name="app_name">EpiCode</string>
+    <string name="cplusplus_meaning">C++ is an object-oriented programming (OOP) language that is viewed by many as the best language for creating large-scale applications. C++ is a superset of the C language. A related programming language, Java, is based on C++ but optimized for the distribution of program objects in a network such as the Internet.</string>
+    <string name="c17">
+     •	The C++ language defines several headers, which contain information that is either necessary or useful to your program. For this program, the header ionstream is needed \n
+     •	The line using namespace std; tells the compiler to use the std namespace. Namespaces are a relatively recent addition to C++.\n
+     •	The next line // main() is where program execution begins. is a single-line comment available in C++. Single-line comments begin with // and stop at the end of the line. \n
+     •	The line int main() is the main function where program execution begins. \n
+     •	The next line cout "Hello World"; causes the message "Hello World" to be displayed on the screen. \n
+     •	The next line return 0; terminates main( )function and causes it to return the value 0 to the calling process. \n\n\n
+
+Compile and Execute C++ Program \n
+     •	Open a text editor and add the code as above. \n
+     •	Save the file as: hello.cpp \n
+     •	Open a command prompt and go to the directory where you saved the file. \n
+     •	Type "g++ hello.cpp" and press enter to compile your code. If there are no errors in your code the command prompt will take you to the next line and would generate a.out executable file.  \n
+     •	Now, type "a.out" to run your program. \n
+     •	You will be able to see "Hello World" printed on the window. \n
+</string>
+
+    <string name="conditionalstatement">
+     •	The C++ language defines several headers, which contain information that is either necessary or useful to your program. For this program, the header ionstream is needed \n
+     •	The line using namespace std; tells the compiler to use the std namespace. Namespaces are a relatively recent addition to C++.\n
+     •	The next line // main() is where program execution begins. is a single-line comment available in C++. Single-line comments begin with // and stop at the end of the line. \n
+     •	The line int main() is the main function where program execution begins. \n
+     •	The next line cout "Hello World"; causes the message "Hello World" to be displayed on the screen. \n
+     •	The next line return 0; terminates main( )function and causes it to return the value 0 to the calling process. \n\n\n
+
+Compile and Execute C++ Program \n
+     •	Open a text editor and add the code as above. \n
+     •	Save the file as: hello.cpp \n
+     •	Open a command prompt and go to the directory where you saved the file. \n
+     •	Type "g++ hello.cpp" and press enter to compile your code. If there are no errors in your code the command prompt will take you to the next line and would generate a.out executable file.  \n
+     •	Now, type "a.out" to run your program. \n
+     •	You will be able to see "Hello World" printed on the window. \n
+</string>
+
+    <string name="conditional">
+<![CDATA[
+• Less than: a < b\n
+• Less than or equal to: a <= b\n
+• Greater than: a > b\n
+• Greater than or equal to: a >= b\n
+• Equal to a == b\n
+• Not Equal to: a != b\n\n
+
+You can use these conditions to perform different actions for different decisions.\n\n
+
+C++ has the following conditional statements:\n\n
+•	Use if to specify a block of code to be executed, if a specified condition is true\n
+•	Use else to specify a block of code to be executed, if the same condition is false\n
+•	Use else if to specify a new condition to test, if the first condition is false\n
+•	Use switch to specify many alternative blocks of code to be executed\n
+Note that if is in lowercase letters. Uppercase letters (If or IF) will generate an error.\n
+]]></string>
+
+
+    <string name="ifstatement">
+<![CDATA[
+ifstatement
+Use the if statement to specify a block of C++ code to be executed if a condition is true.\n\n
+Syntax:\n\n
+
+if (condition) {\n
+  // block of code to be executed if the condition is true\n
+}\n
+]]></string>
+
+    <string name="elsestatement">
+<![CDATA[
+Use the else statement to specify a block of code to be executed if the condition is false.\n\n
+
+Syntax:\n\n
+
+if (condition) {\n
+  // block of code to be executed if the condition is true\n
+} else {\n
+  // block of code to be executed if the condition is false\n
+}\n
+]]></string>
+
+
+    <string name="elseifstatement">
+<![CDATA[
+Use the else if statement to specify a new condition if the first condition is false.\n\n
+
+Syntax:\n\n
+
+if (condition1) {\n
+  // block of code to be executed if condition1 is true\n
+} else if (condition2) {\n
+  // block of code to be executed if the condition1 is false and condition2 is true\n
+} else {\n
+  // block of code to be executed if the condition1 is false and condition2 is false\n
+}\n
+
+]]></string>
+
+    <string name="switchstatement">
+<![CDATA[
+Use the switch statement to select one of many code blocks to be executed.\n\n
+
+Syntax:\n\n
+
+switch(expression) {\n
+  case x:\n
+    // code block\n
+    break;\n
+  case y:\n
+    // code block\n
+    break;\n
+  default:\n
+    // code block\n
+}\n
+
+This is how it works:\n\n
+•	The switch expression is evaluated once\n
+•	The value of the expression is compared with the values of each case\n
+•	If there is a match, the associated block of code is executed\n
+•	The break and default keywords are optional, and will be described later in this chapter\n
+
+]]></string>
+
+    <string name="whileloop">
+<![CDATA[
+The while loop loops through a block of code as long as a specified condition is true:\n\n
+
+Syntax:\n\n
+
+while (condition) {\n
+  // code block to be executed\n
+}\n
+]]></string>
+
+
+    <string name="dowhileloop">
+<![CDATA[
+The do/while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.\n\n
+
+Syntax:\n\n
+
+do {\n
+  // code block to be executed\n
+}\n
+while (condition);\n
+]]></string>
+
+    <string name="forloop">
+<![CDATA[
+When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop:\n\n
+
+Syntax:\n\n
+
+for (statement 1; statement 2; statement 3) {\n
+  // code block to be executed\n
+}\n\n
+
+Statement 1 is executed (one time) before the execution of the code block.\n
+Statement 2 defines the condition for executing the code block.\n
+Statement 3 is executed (every time) after the code block has been executed.\n
+
+]]></string>
+
+
+    //Java Information
+
+    <string name="java_meaning">Java is a popular programming language, created in 1995. It is owned by Oracle, and more than 3 billion devices run Java. Java is an object oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs. As Java is close to C++ and C#, it makes it easy for programmers to switch to Java or vice versa</string>
+
+    <string name="javasyntax">
+<![CDATA[
+Java Syntax\n\n
+In the previous chapter, we created a Java file called Main.java, and we used the following code to print "Hello World" to the screen:\n\n
+Main.java\n\n
+Syntax:\n\n
+
+public class Main {\n
+	public static void main(String[] args) {\n
+		System.out.println(“Hello World”);\n
+	}\n
+}\n\n
+
+Example explained\n\n
+Every line of code that runs in Java must be inside a class. In our example, we named the class Main. A class should always start with an uppercase first letter.\n
+Note: Java is case-sensitive: "MyClass" and "myclass" has different meaning.\n
+The name of the java file must match the class name. When saving the file, save it using the class name and add ".java" to the end of the filename.\n
+]]></string>
+
+    <string name="mainmethod">
+<![CDATA[
+The main() method is required and you will see it in every Java program:\n\n
+public static void main(String[] args)\n\n
+Any code inside the main() method will be executed. Every Java program has a class name which must match the filename, and that every program must contain the main() method.\n
+
+]]></string>
+
+    <string name="systemout">
+<![CDATA[
+Inside the main() method, we can use the println() method to print a line of text to the screen:\n\n
+public static void main(String[] args) {\n
+		System.out.println(“Hello World”);\n
+	}\n\n
+
+Note: The curly braces {} marks the beginning and the end of a block of code.\n
+Note: Each code statement must end with a semicolon.\n
+]]></string>
+
+    <string name="javaconditional">
+<![CDATA[
+Java Conditions and If Statements\n
+Java supports the usual logical conditions from mathematics:\n
+•	Less than: a < b\n
+•	Less than or equal to: a <= b\n
+•	Greater than: a > b\n
+•	Greater than or equal to: a >= b\n
+•	Equal to a == b\n
+•	Not Equal to: a != b\n\n
+You can use these conditions to perform different actions for different decisions.\n
+Java has the following conditional statements:\n
+•	Use if to specify a block of code to be executed, if a specified condition is true\n
+•	Use else to specify a block of code to be executed, if the same condition is false\n
+•	Use else if to specify a new condition to test, if the first condition is false\n
+•	Use switch to specify many alternative blocks of code to be executed\n
+]]></string>
+
+    <string name="javaifstatement">
+<![CDATA[
+Use the if statement to specify a block of Java code to be executed if a condition is true.\n\n
+Syntax:\n\n
+if (condition) {\n
+  // block of code to be executed if the condition is true\n
+}\n\n
+Note that if is in lowercase letters. Uppercase letters (If or IF) will generate an error.\n
+
+]]></string>
+
+    <string name="javaswitchstatement">
+<![CDATA[
+Use the switch statement to select one of many code blocks to be executed.\n\n
+Syntax\n\n
+switch(expression) {\n
+  case x:\n
+    // code block\n
+    break;\n
+  case y:\n
+    // code block\n
+    break;\n
+  default:\n
+    // code block\n
+}\n\n
+This is how it works:\n
+The switch expression is evaluated once.\n
+The value of the expression is compared with the values of each case.\n
+If there is a match, the associated block of code is executed.\n
+The break and default keywords are optional, and will be described later in this chapter\n
+
+]]></string>
+
+    <string name="javaloops">
+<![CDATA[
+Loops can execute a block of code as long as a specified condition is reached.\n
+Loops are handy because they save time, reduce errors, and they make code more readable\n\n
+
+]]></string>
+
+    <string name="javawhileloops">
+<![CDATA[
+The while loop loops through a block of code as long as a specified condition is true:\n\n
+Syntax\n\n
+while (condition) {\n
+  // code block to be executed\n
+}\n\n
+Note: Do not forget to increase the variable used in the condition, otherwise the loop will never end!\n
+
+]]></string>
+
+    <string name="javadowhileloop">
+<![CDATA[
+The do/while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.\n\n
+Syntax\n\n
+do {\n
+  // code block to be executed\n
+}\n
+while (condition);\n\n
+
+]]></string>
+
+    <string name="javaforloop">
+<![CDATA[
+When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop:\n\n
+Syntax\n
+for (statement 1; statement 2; statement 3) {\n
+  // code block to be executed\n
+}\n
+code block to be executed\n
+}\n\n
+Statement 1 is executed (one time) before the execution of the code block.\n
+Statement 2 defines the condition for executing the code block.\n
+Statement 3 is executed (every time) after the code block has been executed.\n
+]]></string>
+
+
+    //Javascript
+    <string name="javascript_meaning">JavaScript is a lightweight, interpreted programming language. It is designed for creating network-centric applications. It is complimentary to and integrated with Java. JavaScript is very easy to implement because it is integrated with HTML. It is open and cross-platform.</string>
+
+    <string name="javascript">
+<![CDATA[
+\n\nJavaScript is one of the 3 languages all web developers must learn:\n\n
+   1. HTML to define the content of web pages\n
+   2. CSS to specify the layout of web pages\n
+   3. JavaScript to program the behaviour of web pages\n\n
+
+]]></string>
+
+    <string name="javascriptsyntax">
+<![CDATA[
+JavaScript syntax is the set of rules, how JavaScript programs are constructed:\n\n
+var x, y, z;       // Declare Variables\n
+x = 5; y = 6;      // Assign Values\n
+z = x + y;         // Compute Values\n\n
+JavaScript Values\n\n
+The JavaScript syntax defines two types of values:\n
+•	Fixed values\n
+•	Variable values\n
+Fixed values are called Literals.\n
+Variable values are called Variables.\n
+
+]]></string>
+    <string name="javascriptliterals"><![CDATA[
+The two most important syntax rules for fixed values are:\n
+1. Numbers are written with or without decimals:\n\n
+10.50\n\n
+
+1001\n\n
+2. Strings are text, written within double or single quotes:\n\n
+"John Doe"\n\n
+
+"John Doe"\n\n
+
+]]></string>
+
+
+    <string name="javascriptvariables"><![CDATA[
+In a programming language, variables are used to store data values.\n
+JavaScript uses the var keyword to declare variables.\n
+An equal sign is used to assign values to variables.\n
+In this example, x is defined as a variable. Then, x is assigned (given) the value 6:\n\n
+var x;\n\n
+
+x = 6;\n\n
+
+]]></string>
+
+    <string name="javascriptoperators">
+        JavaScript uses arithmetic operators ( + - * / ) to compute values:\n
+    </string>
+
+
+    <string name="javascriptifstatement"><![CDATA[
+The if statement\n\n
+The if statement is the fundamental control statement that allows JavaScript to make decisions and execute statements conditionally.\n\n
+Syntax\n\n
+if (expression) {\n
+   Statement(s) to be executed if expression is true\n
+}\n\n
+
+
+The if...else statement\n\n
+
+The "if...else" statement is the next form of control statement that allows JavaScript to execute statements in a more controlled way.\n\n
+Syntax\n\n
+if (expression) {\n
+   Statement(s) to be executed if expression is true\n
+} else {\n
+   Statement(s) to be executed if expression is false\n
+}\n\n
+
+ The if...else if... statement\n
+The if...else if... statement is an advanced form of if…else that allows JavaScript to make a correct decision out of several conditions.\n\n
+Syntax\n\n
+if (expression 1) {\n
+   Statement(s) to be executed if expression 1 is true\n
+} else if (expression 2) {\n
+   Statement(s) to be executed if expression 2 is true\n
+} else if (expression 3) {\n
+   Statement(s) to be executed if expression 3 is true\n
+} else {\n
+   Statement(s) to be executed if no expression is true\n
+}\n
+]]></string>
+
+
+    <string name="javascriptswithcstatement"><![CDATA[
+The objective of a switch statement is to give an expression to evaluate and several different statements to execute based on the value of the expression. The interpreter checks each case against the value of the expression until a match is found. If nothing matches, a default condition will be used.\n\n
+switch (expression) {\n
+   case condition 1: statement(s)\n
+   break;\n
+   case condition 2: statement(s)\n
+   break;\n
+   ...\n
+   case condition n: statement(s)\n
+   break;\n
+   default: statement(s)\n\n
+]]></string>
+
+
+    <string name="javascriptwhileloop"><![CDATA[
+The most basic loop in JavaScript is the while loop which would be discussed in this chapter. The purpose of a while loop is to execute a statement or code block repeatedly as long as an expression is true. Once the expression becomes false, the loop terminates.\n\n
+Syntax\n\n
+while (expression) {\n
+   Statement(s) to be executed if expression is true\n
+}\n\n
+]]></string>
+
+
+    <string name="javascriptdowhileloop"><![CDATA[
+The do...while Loop\n
+The do...while loop is similar to the while loop except that the condition check happens at the end of the loop. This means that the loop will always be executed at least once, even if the condition is false.\n\n
+Syntax\n
+do {\n
+   Statement(s) to be executed;\n
+} while (expression);\n\n
+
+]]></string>
+
+    <string name="javascriptloopstatement"><![CDATA[
+
+The "for" loop is the most compact form of looping. It includes the following three important parts −\n
+•	The loop initialization where we initialize our counter to a starting value. The initialization statement is executed before the loop begins.\n
+•	The test statement which will test if a given condition is true or not. If the condition is true, then the code given inside the loop will be executed, otherwise the control will come out of the loop.\n
+•	The iteration statement where you can increase or decrease your counter.\n
+You can put all the three parts in a single line separated by semicolons.\n\n
+Syntax\n\n
+for (initialization; test condition; iteration statement) {\n
+   Statement(s) to be executed if test condition is true\n
+}\n
+ ]]></string>
+
+
+    //python
+    <string name="python_meaning">
+Python is a general-purpose interpreted, interactive, object-oriented, and high-level programming language. It was created by Guido van Rossum during 1985- 1990. Like Perl, Python source code is also available under the GNU General Public License (GPL). I will list down some of the key advantages of learning Python:\n\n
+•	Python is Interpreted − Python is processed at runtime by the interpreter. You do not need to compile your program before executing it. This is similar to PERL and PHP.\n
+•	Python is Interactive − You can actually sit at a Python prompt and interact with the interpreter directly to write your programs.\n
+•	Python is Object-Oriented − Python supports Object-Oriented style or technique of programming that encapsulates code within objects.\n
+•	Python is a Beginners Language − Python is a great language for the beginner-level programmers and supports the development of a wide range of applications from simple text processing to WWW browsers to games.\n
+</string>
+
+    <string name="python_syntax"><![CDATA[
+        As we learned in the previous page, Python syntax can be executed by writing directly in the Command Line:\n\n
+
+>>> print("Hello, World!")\n
+Hello, World!\n\n
+]]></string>
+
+    <string name="pythonindentation"><![CDATA[
+Indentation refers to the spaces at the beginning of a code line.\n
+Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.\n
+Python uses indentation to indicate a block of code.\n\n
+Example\n
+if 5 > 2:\n
+  print("Five is greater than two!")\n\n
+]]></string>
+
+    <string name="pythonvariales"><![CDATA[
+In Python, variables are created when you assign a value to it:\n\n
+Example\n\n
+x = 5\n
+y = "Hello, World!"\n\n
+]]></string>
+
+    <string name="pythoncomments"><![CDATA[
+Comments start with a #, and Python will render the rest of the line as a comment:\n\n
+Example:\n
+#This is a comment.\n\n
+print("Hello, World!")\n\n
+]]></string>
+
+    <string name="pythonelif"><![CDATA[
+The elif keyword is pythons way of saying "if the previous conditions were not true, then try this condition".\n\n
+Example\n
+a = 33\n
+b = 33\n
+if b > a:\n
+  print("b is greater than a")\n
+elif a == b:\n
+  print("a and b are equal")\n\n
+In this example a is equal to b, so the first condition is not true, but the elif condition is true, so we print to screen that "a and b are equal".\n\n
+]]></string>
+
+    <string name="pythonelse"><![CDATA[
+The else keyword catches anything which isnt caught by the preceding conditions.\n
+Example\n\n
+a = 200\n
+b = 33\n
+if b > a:\n
+  print("b is greater than a")\n
+elif a == b:\n
+  print("a and b are equal")\n
+else:\n
+  print("a is greater than b")\n\n
+You can also have an else without the elif:\n\n
+]]></string>
+
+    <string name="pythonshorthandif"><![CDATA[
+If you have only one statement to execute, you can put it on the same line as the if statement.\n\n
+Example\n\n
+One line if statement:\n
+if a > b: print("a is greater than b")\n\n
+]]></string>
+
+    <string name="pythonshorthandifelse"><![CDATA[
+If you have only one statement to execute, one for if, and one for else, you can put it all on the same line:\n\n
+Example\n\n
+One line if else statement:\n
+a = 2\n
+b = 330\n
+print("A") if a > b else print("B")\n
+This technique is known as Ternary Operators, or Conditional Expressions.\n\n
+]]></string>
+
+    <string name="pythonand"><![CDATA[
+The and keyword is a logical operator, and is used to combine conditional statements:\n\n
+Example\n\n
+Test if a is greater than b, AND if c is greater than a:\n
+a = 200\n
+b = 33\n
+c = 500\n
+if a > b and c > a:\n
+  print("Both conditions are True")\n\n
+]]></string>
+
+    <string name="pythonor"><![CDATA[
+The or keyword is a logical operator, and is used to combine conditional statements:\n\n
+Example\n\n
+Test if a is greater than b, OR if a is greater than c:\n\n
+a = 200\n
+b = 33\n
+c = 500\n
+if a > b or a > c:\n
+  print("At least one of the conditions is True")\n\n
+]]></string>
+
+    <string name="pythonnestedif"><![CDATA[
+You can have if statements inside if statements, this is called nested if statements.\n\n
+Example\n\n
+x = 41\n\n
+
+if x > 10:\n
+  print("Above ten,")\n
+  if x > 20:\n
+    print("and also above 20!")\n
+  else:\n
+    print("but not above 20.")\n\n
+The pass Statement\n
+if statements cannot be empty, but if you for some reason have an if statement with no content, put in the pass statement to avoid getting an error.\n\n
+Example\n\n
+a = 33\n
+b = 200\n\n
+
+if b > a:\n
+  pass\n\n
+
+
+]]></string>
+
+
+    <string name="php_meaning"><![CDATA[
+PHP started out as a small open source project that evolved as more and more people found out how useful it was. Rasmus Lerdorf unleashed the first version of PHP way back in 1994.\n\n
+•	PHP is a recursive acronym for "PHP: Hypertext Preprocessor".\n
+•	PHP is a server side scripting language that is embedded in HTML. It is used to manage dynamic content, databases, session tracking, even build entire e-commerce sites.\n
+•	It is integrated with a number of popular databases, including MySQL, PostgreSQL, Oracle, Sybase, Informix, and Microsoft SQL Server.\n
+•	PHP is pleasingly zippy in its execution, especially when compiled as an Apache module on the Unix side. The MySQL server, once started, executes even very complex queries with huge result sets in record-setting time.\n
+•	PHP supports a large number of major protocols such as POP3, IMAP, and LDAP. PHP4 added support for Java and distributed object architectures (COM and CORBA), making n-tier development a possibility for the first time.\n
+•	PHP is forgiving: PHP language tries to be as forgiving as possible.\n
+•	PHP Syntax is C-Like.\n\n
+Common uses of PHP\n\n
+•	PHP performs system functions, i.e. from files on a system it can create, open, read, write, and close them.\n
+•	PHP can handle forms, i.e. gather data from files, save data to a file, through email you can send data, return data to the user.\n
+•	You add, delete, modify elements within your database through PHP.\n
+•	Access cookies variables and set cookies.\n
+•	Using PHP, you can restrict users to access some pages of your website.\n
+•	It can encrypt data.\n\n
+"Hello World" Script in PHP\n\n
+To get a feel for PHP, first start with simple PHP scripts. Since "Hello, World!" is an essential example, first we will create a friendly little "Hello, World!" script.\n
+As mentioned earlier, PHP is embedded in HTML. That means that in amongst your normal HTML (or XHTML if youre cutting-edge) youll have PHP statements like this : \n\n
+<html>\n
+	<head>\n
+		<title>Hello World</title>\n
+	</head>\n
+		<body>\n
+			<?php echo Hello, World ?>\n
+		</body>\n
+</html>\n\n
+It will produce following result −\n
+Hello, World!\n\n
+If you examine the HTML output of the above example, youll notice that the PHP code is not present in the file sent from the server to your Web browser. All of the PHP present in the Web page is processed and stripped from the page; the only thing returned to the client from the Web server is pure HTML output.\n
+All PHP code must be included inside one of the three special markup tags ATE are recognised by the PHP Parser.\n\n
+        <?php PHP code goes here ?>\n
+        <?	PHP code goes here >\n\n
+<script language = “php”> PHP code goes here </script>\n\n
+    A most common tag is the <?php...?> and we will also use the same tag in our tutorial.\n
+    From the next chapter we will start with PHP Environment Setup on your machine and then we will dig out almost all concepts related to PHP to make you comfortable with the PHP language.\n\n
+]]></string>
+
+
+    <string name="php_syntax"><![CDATA[
+A PHP script is executed on the server, and the plain HTML result is sent back to the browser.\n\n
+Basic PHP Syntax\n
+A PHP script can be placed anywhere in the document.\n
+A PHP script starts with <?php and ends with ?>:\n\n
+<?php\n
+	// PHP code goes here\n
+?>\n\n
+The default file extension for PHP files is ".php".\n
+A PHP file normally contains HTML tags, and some PHP scripting code.\n
+Below, we have an example of a simple PHP file, with a PHP script that uses a built-in PHP function "echo" to output the text "Hello World!" on a web page:\n\n
+Example\n\n
+<!DOCTYPE html>\n
+<html>\n
+	<body>\n
+		<h1>My first PHP page</h1>\n
+			<?php	echo "Hello World!";	?>\n
+	</body>\n
+</html>\n\n
+Note: PHP statements end with a semicolon (;).\n
+
+    ]]></string>
+    <string name="php_conditionalstatement"><![CDATA[
+<font size="15"><b>PHP Conditional Statements</b></font>\n\n
+
+Very often when you write code, you want to perform different actions for different conditions. You can use conditional statements in your code to do this.\n\n
+In PHP we have the following conditional statements:\n\n
+•	if statement - executes some code if one condition is true\n
+•	if...else statement - executes some code if a condition is true and another code if that condition is false\n
+•	if...elseif...else statement - executes different codes for more than two conditions\n
+•	switch statement - selects one of many blocks of code to be executed\n\n
+
+<font size="15"><b>PHP - The if Statement</b></font>\n\n
+
+The if statement executes some code if one condition is true.\n\n
+Syntax\n
+if (condition) {\n
+  code to be executed if condition is true;\n
+}\n\n
+
+<font size="15"><b>PHP - The if...else Statement</b></font>\n\n
+
+The if...else statement executes some code if a condition is true and another code if that condition is false.\n\n
+Syntax\n\n
+if (condition) {\n\
+  code to be executed if condition is true;\n
+} else {\n
+  code to be executed if condition is false;\n
+}\n\n
+
+<font size="15"><b>PHP - The if...elseif...else Statement</b></font>\n\n
+
+The if...elseif...else statement executes different codes for more than two conditions.\n\n
+Syntax\n\n
+if (condition) {\n
+  code to be executed if this condition is true;\n
+} elseif (condition) {\n
+  code to be executed if first condition is false and this condition is true;\n
+} else {\n
+  code to be executed if all conditions are false;\n
+}\n\n
+
+The PHP switch Statement\n
+Use the switch statement to select one of many blocks of code to be executed.\n\n
+Syntax\n\n
+switch (n) {\n
+  case label1:\n
+    code to be executed if n=label1;\n
+    break;\n
+  case label2:\n
+    code to be executed if n=label2;\n
+    break;\n
+  case label3:\n
+    code to be executed if n=label3;\n
+    break;\n
+    ...\n
+  default:\n
+    code to be executed if n is different from all labels;\n
+}\n\n
+This is how it works: First we have a single expression n (most often a variable), that is evaluated once. The value of the expression is then compared with the values for each case in the structure. If there is a match, the block of code associated with that case is executed. Use break to prevent the code from running into the next case automatically. The default statement is used if no match is found.\n\n
+
+
+
+        ]]></string>
+</resources>
